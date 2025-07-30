@@ -10,6 +10,14 @@ import SwiftUI
 class AsyncStreamDataProvider {
     let prices = [13259, 43532, 34154, 98765, 43210]
     
+    func getAsyncStream() -> AsyncStream<Int> {
+        AsyncStream { continuation in
+            self.getData { price in
+                continuation.yield(price)
+            }
+        }
+    }
+    
     func getData(completeWith: @escaping (Int) -> Void) {
         for i in 0 ..< prices.count {
             let price = prices[i]
@@ -25,8 +33,14 @@ class AsyncStreamViewModel: ObservableObject {
 
     private let dataProvider = AsyncStreamDataProvider()
     
-    init() {
-        getDataWithCompletion()
+//    init() {
+//        getDataWithCompletion()
+//    }
+    
+    func getData() async {
+        for await price in dataProvider.getAsyncStream() {
+            self.price = price
+        }
     }
 
     func getDataWithCompletion() {
@@ -44,6 +58,9 @@ struct AsyncStreamModule: View {
             Text("BTC")
             Spacer()
             Text("$\(viewModel.price)")
+        }
+        .task {
+            await viewModel.getData()
         }
         .padding()
     }
