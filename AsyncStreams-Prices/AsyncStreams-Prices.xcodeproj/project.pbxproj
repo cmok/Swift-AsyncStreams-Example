@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		AF67667F2E3AE0770078202E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AF6766692E3AE0760078202E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AF6766702E3AE0760078202E;
+			remoteInfo = "AsyncStreams-Prices";
+		};
+		AF6766892E3AE0770078202E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AF6766692E3AE0760078202E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AF6766702E3AE0760078202E;
+			remoteInfo = "AsyncStreams-Prices";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AF6766712E3AE0760078202E /* AsyncStreams-Prices.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AsyncStreams-Prices.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF67667E2E3AE0770078202E /* AsyncStreams-PricesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AsyncStreams-PricesTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF6766882E3AE0770078202E /* AsyncStreams-PricesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AsyncStreams-PricesUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		AF6766732E3AE0760078202E /* AsyncStreams-Prices */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "AsyncStreams-Prices";
+			sourceTree = "<group>";
+		};
+		AF6766812E3AE0770078202E /* AsyncStreams-PricesTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "AsyncStreams-PricesTests";
+			sourceTree = "<group>";
+		};
+		AF67668B2E3AE0770078202E /* AsyncStreams-PricesUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "AsyncStreams-PricesUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AF67666E2E3AE0760078202E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF67667B2E3AE0770078202E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF6766852E3AE0770078202E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AF6766682E3AE0760078202E = {
+			isa = PBXGroup;
+			children = (
+				AF6766732E3AE0760078202E /* AsyncStreams-Prices */,
+				AF6766812E3AE0770078202E /* AsyncStreams-PricesTests */,
+				AF67668B2E3AE0770078202E /* AsyncStreams-PricesUITests */,
+				AF6766722E3AE0760078202E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AF6766722E3AE0760078202E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AF6766712E3AE0760078202E /* AsyncStreams-Prices.app */,
+				AF67667E2E3AE0770078202E /* AsyncStreams-PricesTests.xctest */,
+				AF6766882E3AE0770078202E /* AsyncStreams-PricesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AF6766702E3AE0760078202E /* AsyncStreams-Prices */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF6766922E3AE0770078202E /* Build configuration list for PBXNativeTarget "AsyncStreams-Prices" */;
+			buildPhases = (
+				AF67666D2E3AE0760078202E /* Sources */,
+				AF67666E2E3AE0760078202E /* Frameworks */,
+				AF67666F2E3AE0760078202E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				AF6766732E3AE0760078202E /* AsyncStreams-Prices */,
+			);
+			name = "AsyncStreams-Prices";
+			packageProductDependencies = (
+			);
+			productName = "AsyncStreams-Prices";
+			productReference = AF6766712E3AE0760078202E /* AsyncStreams-Prices.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AF67667D2E3AE0770078202E /* AsyncStreams-PricesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF6766952E3AE0770078202E /* Build configuration list for PBXNativeTarget "AsyncStreams-PricesTests" */;
+			buildPhases = (
+				AF67667A2E3AE0770078202E /* Sources */,
+				AF67667B2E3AE0770078202E /* Frameworks */,
+				AF67667C2E3AE0770078202E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AF6766802E3AE0770078202E /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				AF6766812E3AE0770078202E /* AsyncStreams-PricesTests */,
+			);
+			name = "AsyncStreams-PricesTests";
+			packageProductDependencies = (
+			);
+			productName = "AsyncStreams-PricesTests";
+			productReference = AF67667E2E3AE0770078202E /* AsyncStreams-PricesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AF6766872E3AE0770078202E /* AsyncStreams-PricesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF6766982E3AE0770078202E /* Build configuration list for PBXNativeTarget "AsyncStreams-PricesUITests" */;
+			buildPhases = (
+				AF6766842E3AE0770078202E /* Sources */,
+				AF6766852E3AE0770078202E /* Frameworks */,
+				AF6766862E3AE0770078202E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AF67668A2E3AE0770078202E /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				AF67668B2E3AE0770078202E /* AsyncStreams-PricesUITests */,
+			);
+			name = "AsyncStreams-PricesUITests";
+			packageProductDependencies = (
+			);
+			productName = "AsyncStreams-PricesUITests";
+			productReference = AF6766882E3AE0770078202E /* AsyncStreams-PricesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AF6766692E3AE0760078202E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					AF6766702E3AE0760078202E = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					AF67667D2E3AE0770078202E = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = AF6766702E3AE0760078202E;
+					};
+					AF6766872E3AE0770078202E = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = AF6766702E3AE0760078202E;
+					};
+				};
+			};
+			buildConfigurationList = AF67666C2E3AE0760078202E /* Build configuration list for PBXProject "AsyncStreams-Prices" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AF6766682E3AE0760078202E;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = AF6766722E3AE0760078202E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AF6766702E3AE0760078202E /* AsyncStreams-Prices */,
+				AF67667D2E3AE0770078202E /* AsyncStreams-PricesTests */,
+				AF6766872E3AE0770078202E /* AsyncStreams-PricesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AF67666F2E3AE0760078202E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF67667C2E3AE0770078202E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF6766862E3AE0770078202E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AF67666D2E3AE0760078202E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF67667A2E3AE0770078202E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF6766842E3AE0770078202E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AF6766802E3AE0770078202E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AF6766702E3AE0760078202E /* AsyncStreams-Prices */;
+			targetProxy = AF67667F2E3AE0770078202E /* PBXContainerItemProxy */;
+		};
+		AF67668A2E3AE0770078202E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AF6766702E3AE0760078202E /* AsyncStreams-Prices */;
+			targetProxy = AF6766892E3AE0770078202E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		AF6766902E3AE0770078202E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 57VUS8QTGY;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AF6766912E3AE0770078202E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 57VUS8QTGY;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AF6766932E3AE0770078202E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 57VUS8QTGY;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.caspermok.AsyncStreams-Prices";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AF6766942E3AE0770078202E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 57VUS8QTGY;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.caspermok.AsyncStreams-Prices";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AF6766962E3AE0770078202E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 57VUS8QTGY;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.caspermok.AsyncStreams-PricesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AsyncStreams-Prices.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AsyncStreams-Prices";
+			};
+			name = Debug;
+		};
+		AF6766972E3AE0770078202E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 57VUS8QTGY;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.caspermok.AsyncStreams-PricesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AsyncStreams-Prices.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AsyncStreams-Prices";
+			};
+			name = Release;
+		};
+		AF6766992E3AE0770078202E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 57VUS8QTGY;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.caspermok.AsyncStreams-PricesUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "AsyncStreams-Prices";
+			};
+			name = Debug;
+		};
+		AF67669A2E3AE0770078202E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 57VUS8QTGY;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.caspermok.AsyncStreams-PricesUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "AsyncStreams-Prices";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AF67666C2E3AE0760078202E /* Build configuration list for PBXProject "AsyncStreams-Prices" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF6766902E3AE0770078202E /* Debug */,
+				AF6766912E3AE0770078202E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF6766922E3AE0770078202E /* Build configuration list for PBXNativeTarget "AsyncStreams-Prices" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF6766932E3AE0770078202E /* Debug */,
+				AF6766942E3AE0770078202E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF6766952E3AE0770078202E /* Build configuration list for PBXNativeTarget "AsyncStreams-PricesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF6766962E3AE0770078202E /* Debug */,
+				AF6766972E3AE0770078202E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF6766982E3AE0770078202E /* Build configuration list for PBXNativeTarget "AsyncStreams-PricesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF6766992E3AE0770078202E /* Debug */,
+				AF67669A2E3AE0770078202E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AF6766692E3AE0760078202E /* Project object */;
+}
