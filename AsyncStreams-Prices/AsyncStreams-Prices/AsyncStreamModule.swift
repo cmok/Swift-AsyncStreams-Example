@@ -20,35 +20,16 @@ class AsyncStreamDataProvider {
             }
         }
     }
-    
-    func getData(completeWith: @escaping (Int) -> Void) {
-        for i in 0 ..< prices.count {
-            let price = prices[i]
-            DispatchQueue.main.asyncAfter(deadline: .now() + .seconds(i)) {
-                completeWith(price)
-            }
-        }
-    }
 }
 
 class AsyncStreamViewModel: ObservableObject {
     @Published var price: Int = 0
 
     private let dataProvider = AsyncStreamDataProvider()
-    
-//    init() {
-//        getDataWithCompletion()
-//    }
-    
+        
     func getData() async {
         for await price in dataProvider.getAsyncStream() {
             self.price = price
-        }
-    }
-
-    func getDataWithCompletion() {
-        dataProvider.getData { [weak self] price in
-            self?.price = price
         }
     }
 }
