@@ -12,8 +12,11 @@ class AsyncStreamDataProvider {
     
     func getAsyncStream() -> AsyncStream<Int> {
         AsyncStream { continuation in
-            self.getData { price in
-                continuation.yield(price)
+            for i in 0 ..< prices.count {
+                let price = prices[i]
+                DispatchQueue.main.asyncAfter(deadline: .now() + .seconds(i)) {
+                    continuation.yield(price)
+                }
             }
         }
     }
