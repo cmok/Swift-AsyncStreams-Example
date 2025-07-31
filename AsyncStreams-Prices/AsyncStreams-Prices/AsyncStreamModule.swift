@@ -17,14 +17,12 @@ class AsyncStreamDataProvider {
                 print("Handle termination event... such as tear down")
             }
             
-            for (i, price) in prices.enumerated() {
-                DispatchQueue.main.asyncAfter(deadline: .now() + .seconds(i)) {
+            Task {
+                for price in prices {
+                    try? await Task.sleep(for: .milliseconds(1000))
                     continuation.yield(price)
-                    
-                    if i == self.prices.count - 1 {
-                        continuation.finish()
-                    }
                 }
+                continuation.finish()
             }
         }
     }
