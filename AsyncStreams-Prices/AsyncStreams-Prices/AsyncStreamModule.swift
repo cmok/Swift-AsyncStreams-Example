@@ -12,6 +12,11 @@ class AsyncStreamDataProvider {
     
     func getAsyncStream() -> AsyncStream<Int> {
         AsyncStream { continuation in
+            
+            continuation.onTermination = { _ in
+                print("Handle termination event... such as tear down")
+            }
+            
             for (i, price) in prices.enumerated() {
                 DispatchQueue.main.asyncAfter(deadline: .now() + .seconds(i)) {
                     continuation.yield(price)
@@ -39,7 +44,7 @@ class AsyncStreamViewModel: ObservableObject {
             self.price = price
         }
         
-        print("Streaming finished.")
+        print("Streaming finished...")
     }
 }
 
