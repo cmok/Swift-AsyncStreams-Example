@@ -12,10 +12,13 @@ class AsyncStreamDataProvider {
     
     func getAsyncStream() -> AsyncStream<Int> {
         AsyncStream { continuation in
-            for i in 0 ..< prices.count {
-                let price = prices[i]
+            for (i, price) in prices.enumerated() {
                 DispatchQueue.main.asyncAfter(deadline: .now() + .seconds(i)) {
                     continuation.yield(price)
+                    
+                    if i == self.prices.count - 1 {
+                        continuation.finish()
+                    }
                 }
             }
         }
@@ -27,10 +30,16 @@ class AsyncStreamViewModel: ObservableObject {
 
     private let dataProvider = AsyncStreamDataProvider()
         
+    @MainActor
     func getData() async {
+        print("Start streaming...")
+        
         for await price in dataProvider.getAsyncStream() {
+            print("Stream price: \(price)")
             self.price = price
         }
+        
+        print("Streaming finished.")
     }
 }
 
