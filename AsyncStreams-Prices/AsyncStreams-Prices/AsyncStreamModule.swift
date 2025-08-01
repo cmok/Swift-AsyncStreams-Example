@@ -7,9 +7,7 @@
 
 import SwiftUI
 
-class AsyncStreamDataProvider {
-    let prices = [13259, 43532, 34154, 98765, 43210]
-    
+class AsyncStreamDataProvider {    
     func getAsyncStream() -> AsyncStream<Int> {
         AsyncStream { continuation in
             
@@ -18,11 +16,10 @@ class AsyncStreamDataProvider {
             }
             
             Task {
-                for price in prices {
+                while !Task.isCancelled {
                     try? await Task.sleep(for: .milliseconds(1000))
-                    continuation.yield(price)
+                    continuation.yield(Int.random(in: 10000...99999))
                 }
-                continuation.finish()
             }
         }
     }
